@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
+body{
+    margin: 0;
+}
+#nav{
+    background-color: #d35400;
+    padding: 22px;
+    .palabra-grande {
+        font-size: 20px; /* Cambia el tamaño de la fuente */
+        color: white;
+       font-family: Arial;
+      }
+      
+    display: flex;
+    
+
+    justify-content: space-between;
+}
+
+a{
+  
+    text-decoration: none;
+    text-align: center;
+    padding: 43px;
+    font-size: 18px
+    
+}
+#nav a{
+    color: #fdfdfd;
+}
+
+#nav a:hover{
+    color: rgb(41, 41, 41);
+}
+
+#arma {
+    display: flex;
+    flex-direction: row-reverse; /* Imagen a la derecha, texto a la izquierda */
+    justify-content: flex-start; /* Alinea los elementos a la izquierda */
+    align-items: center;
+    width: 90%;
+    margin: 50px auto;
+    padding: 30px;
+    color: white;
+    background-color: #902727; /* Fondo del contenedor */
+    position: relative;
+}
+
+.cont-texto {
+    position: relative;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: #902727;
+    width: 45%; /* Reducir el ancho del contenedor de texto */
+    margin-left: 80px; /* Mueve el texto hacia la izquierda */
+    font-family: 'Montserrat', sans-serif !important;
+}
+.cont-texto h1,
+.cont-texto p,
+.cont-texto .subtitulo,
+.cont-texto .promo {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 1px;/*reduce la separacion del titulo*/
+}
+
+.ingredientes {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'playfair Display', serif;
+    font-style:italic;
+    background: white;
+    color: red;
+    padding: 5px 15px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+/* Color correcto de la promo */
+.promo {
+    font-size: 18px;
+    font-style: italic;
+    color: #f1c40f;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.boton {
+    background: #f39c12;
+    color: red;
+    padding: 15px 25px;
+    border-radius: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    margin-left: 320px; /* Mueve el texto hacia la izquierda */
+    position: relative;
+    top: -100px; /*mueve hacia arriba*/
+    font-style: italic;
+    
+}
+
+.boton a{
+    text-decoration: none;
+    color:white
+}
+.boton:hover {
+    background: #f3b783;
+}
+
+/* Contenedor de la imagen */
+.cont-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cont-img img {
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Borde general para redondear el contenedor */
+.borde-redondo {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#eslogan {
+    position: relative;
+    top: -20px;
+}
+.arriba {
+    h1 {
+        color:white;
+        font-style: italic;
+        
+
+    }   
+}
+h3 {
+    font-style: italic;
+    color: #d35400;
+}
+.parrafo {
+    text-align: center;
+    font-size: 20px;
+    max-width: 60%;
+    margin: 0 auto;
+    line-height: 1.5;
+    color: #F5E1C0;
+}
+
+#cerca {
+    h1 {
+        color:#F5E1C0;
+        text-align: center;
+    }
+}
+
+.mapa {
+
+    width: 900px;
+    max-width: 1600px;
+    display: flex;
+    height:600px;
+    border:0; 
+    float:right;
+    margin: 100px;
+}
+
+.mapa iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.direccion1 {
+    margin-left: 170px;
+    
+    border: 1px solid white ;
+    border-radius: 15px;
+    position: relative;
+    top: 100px;
+    display: inline-block;
+    font-size: 20px;
+    h3 {
+        color:white;
+    };
+}
+
+.direccion2 {
+    margin-left: -50px;
+    position: relative;
+    top: 280px; /*mueve hacia debajo*/
+    border: 1px solid white ;
+    border-radius: 15px;
+    display: inline-block;
+    font-size: 20px;
+    h3 {
+        color:white;
+    };
+} 
+
+.direccion3 {
+    margin-left: -50px;/*entre mayor sea el numero, mas se mueve hacia la derecha y entre menor sea el numero se mueve hacia la izquierda*/
+    position: relative;
+    top: 460px; /*mueve hacia debajo*/
+    border: 1px solid white ;
+    border-radius: 15px;
+    display: inline-block;
+    font-size: 20px;
+    h3 {
+        color:white;
+    };
+    
+
+} 
+
+.direccion4 {
+    margin-left: 590px;/*entre mayor sea el numero, mas se mueve hacia la derecha y entre menor sea el numero se mueve hacia la izquierda*/
+    position: relative;
+    top: 433px; /*mueve hacia debajo*/
+    border: 1px solid white ;
+    border-radius: 15px;
+    display: inline-block;
+    font-size: 20px;
+    h3 {
+        color:white;
+    };
+    
+
+} 
+
+.horario {
+    display:flex;
+    justify-content: space-around; /* Distribuye con espacios entre los textos */
+    align-items: center; /* Alinea verticalmente */
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    top: 30px;
+    color: wheat;
+    font-size: 25px;
+}
+
+.contacto {
+    color: white;
+    position: relative;
+    top: 60px;
+    text-align: center;
+    font-style:unset;
+}
+.sub {
+    color: wheat;
+}
+
+.formulario{
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.formulario input:focus {
+    border-color: #000000;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.formulario br {
+    display: none;
+}
+
+.formulario input[type="file"] {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background: #fff5e6;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+/* Personaliza el botón de selección de archivo */
+.formulario input[type="file"]::file-selector-button {
+    background: #f39c12;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+
+.enviar {
+    background: #f39c12;
+    color: #fffdfd;
+    padding: 15px 25px;
+    border-radius: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    display: block; /* Hace que el botón ocupe toda la línea */
+    width: fit-content; /* Ajusta el tamaño al contenido */
+    margin: 20px auto; /* Centra horizontalmente */
+    position: relative;
+    top: 15px; /*mueve hacia arriba*/
+    font-style: italic;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    color: #e6a173;
+}
+
+.patrocinadores {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+.patrocinadores h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.patrocinadores p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 25px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Contenedor de los logos */
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Tarjetas de patrocinadores */
+.sponsor {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+}
+
+/* Imágenes de los logos */
+.sponsor img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.footer {
+    background-color: #fff; 
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    top: 50px;
+}
+
+.footer-links {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 10px;
+}
+
+.disclaimer {
+    font-size: 12px;
+    color: #555;
+}
+
+.social-media {
+    margin-top: 15px;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+
